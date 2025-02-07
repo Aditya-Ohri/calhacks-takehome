@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-item {
+  display: flex;
+  align-items: center; /* Vertically align the label and input */
+  gap: 10px; /* Space between the label and the input field */
+}
+
+label {
+  font-size: 14px;
+  width: 120px; /* Set a fixed width to align labels */
+  text-align: right; /* Align text of label to the right */
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 200px; /* Keep the input fields consistent in width */
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  align-items: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
